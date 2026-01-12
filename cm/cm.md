@@ -1,4 +1,4 @@
-![UniCA](logo-unica.png)
+![UniCA](../logo-unica.png)
 ## L1
 # Calculus 2
 # 2025-26

@@ -42,9 +42,9 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 - Groupe 7	: A. Sangam
 - Groupe 8 : Bisson
 - Groupe 9 : Dillinger
-- Groupe 10	: Douai
+- Groupe 10	: A. Douai
 - Groupe 11	: Jacumin
-- Groupe 12	: Torres Escorza Nicolas
+- Groupe 12	: N. Torres Escorza
 - Groupe 13	: M. Krupa
 - Groupe 14	: M. Krupa
 - Groupe 15	: Hernandez-Aristizabal

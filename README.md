@@ -23,13 +23,14 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 
 - 12 H de CM
 - 18 H de TD
+- [emploi du temps](https://upinfo.univ-cotedazur.fr/data/portail/s2/SPEM201.pdf)
 
 ## Intervenants
 
 Cours magistraux (1 séance hebdomadaire de 2H sur 6 semaines, du 19/01 au 06/03/2026) :
-- Amphi 1 : J.-B. Caillau, Lu 13:15-15:15 (salle TBC)
-- Amphi 2 : J.-B. Caillau, Je 10:15-12:15 (salle TBC)
-- Amphi 3 : K. Kokhasov, Me 08:00-10:00 (salle TBC)
+- Amphi A : K. Kokhasov, Me 08:00-10:00 (amphi Math)
+- Amphi B : J.-B. Caillau, Je 10:15-12:15 (amphi Math)
+- Amphi C : J.-B. Caillau, Lu 13:15-15:15 (amphi Math)
 
 Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06/03/2026) :
 - Groupe 1 : J.-B. Caillau

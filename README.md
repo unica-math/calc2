@@ -27,9 +27,9 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 ## Intervenants
 
 Cours magistraux (1 séance hebdomadaire de 2H sur 6 semaines, du 19/01 au 06/03/2026) :
-- CM 1 : J.-B. Caillau, Lu 13:15-15:15 (salle TBC)
-- CM 2 : J.-B. Caillau, Je 10:15-12:15 (salle TBC)
-- CM 3 : K. Kokhasov, Me 08:00-10:00 (salle TBC)
+- Amphi 1 : J.-B. Caillau, Lu 13:15-15:15 (salle TBC)
+- Amphi 2 : J.-B. Caillau, Je 10:15-12:15 (salle TBC)
+- Amphi 3 : K. Kokhasov, Me 08:00-10:00 (salle TBC)
 
 Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06/03/2026) :
 - Groupe 1 : J.-B. Caillau

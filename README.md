@@ -39,7 +39,7 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 - Groupe 4 : Narvaez
 - Groupe 5 : Ghosn
 - Groupe 6 : Ghosn
-- Groupe7	: A. Sangam
+- Groupe 7	: A. Sangam
 - Groupe 8 : Bisson
 - Groupe 9 : Dillinger
 - Groupe 10	: Douai

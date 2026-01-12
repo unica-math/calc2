@@ -1,5 +1,17 @@
-# calc2
-Calculus 2
+![UniCA](logo-unica.png)
+## L1 - Calculus 2
+# 2025-26
+
+[Discussions](https://github.com/unica-math/calc2/discussions/1)
+
+# Évaluation
+
+Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
+
+# Organisation
+
+- 12 H de CM
+- 18 H de TD
 
 ## Intervenants
 
@@ -31,3 +43,9 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 Examens :
 - CC no. 1 : TBC
 - CC no. 2 : 27/03/2026 (salle TBC)
+
+# Bibliographie
+
+- [Exo7, cours d'algèbre de 1ère année](http://exo7.emath.fr/cours/livre-algebre-1.pdf) (voir Ch. 3 sur les nombres complexes)
+- [Exo7, cours d'analyse de 1ère année](http://exo7.emath.fr/cours/livre-analyse-1.pdf) (voir Ch. 5 sur la dérivation et Ch. 9 sur les EDO)
+- [Exo7, cours d'analyse de 2ème année](http://exo7.emath.fr/cours/cours-fpv.pdf) (voir Ch. 1 et 2 sur les fonctions de plusieurs variables et leur dérivation)

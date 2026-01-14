@@ -35,21 +35,21 @@ Cours magistraux (1 séance hebdomadaire de 2H sur 6 semaines, du 19/01 au 06/03
 Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06/03/2026) :
 - Groupe A : J.-B. Caillau
 - Groupe B : V. Kostov
-- Groupe C : Dillinger
-- Groupe D : Narvaez
+- Groupe C : H. Dillinger
+- Groupe D : N. Narvaez
 - Groupe E : Ghosn
 - Groupe F : Ghosn
 - Groupe G : A. Sangam
 - Groupe H : Bisson
-- Groupe I : Dillinger
-- Groupe J	: Douai
-- Groupe K	: Jacumin
-- Groupe L	: Torres Escorza Nicolas
+- Groupe I : H. Dillinger
+- Groupe J	: A. Douai
+- Groupe K	: T. Jacumin
+- Groupe L	: N. Torres Escorza
 - Groupe M	: M. Krupa
 - Groupe N	: M. Krupa
-- Groupe O	: Hernandez-Aristizabal
-- Groupe P	: Oudeville
-- Groupe Q	: Harb
+- Groupe O	: D. Hernandez-Aristizabal
+- Groupe P	: T. Oudeville
+- Groupe Q	: R. Harb
 - Groupe R	: E. Pécou
 
 Examens :

@@ -23,7 +23,7 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 
 - 12 H de CM
 - 18 H de TD
-- [emploi du temps](https://upinfo.univ-cotedazur.fr/data/portail/s2/SPEM201.pdf)
+- [emploi du temps](https://upinfo.univ-cotedazur.fr/data/portail/s2/SPEM201.pdf) (version 2024-25, TBC pour 2025-26)
 
 ## Intervenants
 

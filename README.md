@@ -42,15 +42,16 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 - Groupe G : A. Sangam
 - Groupe H : O. Bisson
 - Groupe I : H. Dillinger
-- Groupe J	: A. Douai
-- Groupe K	: T. Jacumin
-- Groupe L	: N. Torres Escorza
-- Groupe M	: M. Krupa
-- Groupe N	: M. Krupa
-- Groupe O	: D. Hernandez-Aristizabal
-- Groupe P	: T. Oudeville
-- Groupe Q	: R. Harb
-- Groupe R	: E. Pécou
+- Groupe J : A. Douai
+- Groupe K : T. Jacumin
+- Groupe L : N. Torres Escorza
+- Groupe M : M. Krupa
+- Groupe N : M. Krupa
+- Groupe O : D. Hernandez-Aristizabal
+- Groupe P : T. Oudeville
+- Groupe Q : R. Harb
+- Groupe R : E. Pécou
+- Groupe S : I. Beschastnyi
 
 Examens :
 - CC no. 1 : TBC

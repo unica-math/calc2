@@ -1,6 +1,6 @@
 ![UniCA](logo-unica.png)
 ## L1
-# Calculus 2
+# Calculus 2 (SPEM201)
 # 2025-26
 
 [Discussions](https://github.com/unica-math/calc2/discussions/1)

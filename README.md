@@ -36,12 +36,12 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 - Groupe A : J.-B. Caillau
 - Groupe B : V. Kostov
 - Groupe C : H. Dillinger
-- Groupe D : N. Narvaez
+- Groupe D : H. Dillinger
 - Groupe E : C. Ghosn
 - Groupe F : C. Ghosn
 - Groupe G : A. Sangam
 - Groupe H : O. Bisson
-- Groupe I : H. Dillinger
+- Groupe I : N. Narvaez
 - Groupe J : A. Douai
 - Groupe K : T. Jacumin
 - Groupe L : N. Torres Escorza

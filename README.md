@@ -9,6 +9,8 @@
 
 ## Bibliographie
 
+Deschamps, C.; Moulin, F.; Gentric, Y.; Bourrigan, M.; Delsinne, E. *et al.* *Maths PCSI. Tout-en-un.* Dunod, 2024
+
 [Exo7, cours d'algèbre de 1ère année](http://exo7.emath.fr/cours/livre-algebre-1.pdf) (voir Ch. 3 sur les nombres complexes)
 
 [Exo7, cours d'analyse de 1ère année](http://exo7.emath.fr/cours/livre-analyse-1.pdf) (voir Ch. 5 sur la dérivation et Ch. 9 sur les EDO)
@@ -27,12 +29,12 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 
 ## Intervenants
 
-Cours magistraux (1 séance hebdomadaire de 2H sur 6 semaines, du 19/01 au 06/03/2026) :
-- Amphi A : K. Kozhasov, Me 08:00-10:00 (amphi Math)
-- Amphi B : J.-B. Caillau, Je 10:15-12:15 (amphi Math)
-- Amphi C : J.-B. Caillau, Lu 13:15-15:15 (amphi Math)
+Cours magistraux (1 séance hebdomadaire de 2 H sur 6 semaines, du 19/01 au 06/03/2026) :
+- G01 : J.-B. Caillau, Je 10:15-12:15 (amphi Math)
+- G02 : K. Kozhasov, Me 08:00-10:00 (amphi Math)
+- G03 : J.-B. Caillau, Lu 13:15-15:15 (amphi Math)
 
-Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06/03/2026) :
+Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 19/01 au 06/03/2026) :
 - Groupe A : J.-B. Caillau
 - Groupe B : V. Kostov
 - Groupe C : H. Dillinger
@@ -54,5 +56,5 @@ Travaux dirigés (2 séances hebdomadaires d'1H30 sur 6 semaines, du 19/01 au 06
 - Groupe S : I. Beschastnyi
 
 Examens :
-- CC no. 1 : TBC
-- CC no. 2 : 27/03/2026 (salle TBC)
+- CC no. 1 : 14/02/2025 (horaire et salle TBC) 
+- CC no. 2 : 27/03/2026 (horaire et salle TBC)

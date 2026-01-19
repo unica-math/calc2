@@ -34,7 +34,7 @@ Cours magistraux (1 séance hebdomadaire de 2 H sur 6 semaines, du 19/01 au 06/0
 - G02 : K. Kozhasov, Me 08:00-10:00 (amphi Math)
 - G03 : J.-B. Caillau, Lu 13:15-15:15 (amphi Math)
 
-Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 19/01 au 06/03/2026) :
+Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 13/03/2026) :
 - Groupe A : J.-B. Caillau
 - Groupe B : V. Kostov
 - Groupe C : H. Dillinger

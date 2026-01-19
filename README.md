@@ -7,6 +7,8 @@
 
 [Plan du cours](cm/cm.md)
 
+[ADE SPSIT1-400](https://ade-consult.univ-cotedazur.fr)
+
 ## Bibliographie
 
 Deschamps, C.; Moulin, F.; Gentric, Y.; Bourrigan, M.; Delsinne, E. *et al.* *Maths PCSI. Tout-en-un.* Dunod, 2024

@@ -10,7 +10,7 @@
 - résolution d’une équation de deuxième degré
 - lien avec le calcul vectoriel, interprétation géométrique de C et affixe d’un point du plan
 
-## Ch. 2 Equations différentielles linéaires
+## Ch. 2 - Équations différentielles linéaires
 
 - EDO linéaires d'ordre 1, coefficient constant ou variable, avec second membre, principe de superposition, variation de la constante
 - EDO linéaires d'ordre 2 à coefficients constants, avec second membre, principe de superposition

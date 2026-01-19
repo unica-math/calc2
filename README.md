@@ -13,11 +13,11 @@
 
 Deschamps, C.; Moulin, F.; Gentric, Y.; Bourrigan, M.; Delsinne, E. *et al.* *Maths PCSI. Tout-en-un.* Dunod, 2024
 
-[Exo7, cours d'algèbre de 1ère année](http://exo7.emath.fr/cours/livre-algebre-1.pdf) (voir Ch. 3 sur les nombres complexes)
+Exo 7. [Cours d'algèbre de 1ère année](http://exo7.emath.fr/cours/livre-algebre-1.pdf) (voir Ch. 3 sur les nombres complexes)
 
-[Exo7, cours d'analyse de 1ère année](http://exo7.emath.fr/cours/livre-analyse-1.pdf) (voir Ch. 5 sur la dérivation et Ch. 9 sur les EDO)
+Exo7. [Cours d'analyse de 1ère année](http://exo7.emath.fr/cours/livre-analyse-1.pdf) (voir Ch. 5 sur la dérivation et Ch. 9 sur les EDO)
 
-[Exo7, cours d'analyse de 2ème année](http://exo7.emath.fr/cours/cours-fpv.pdf) (voir Ch. 1 et 2 sur les fonctions de plusieurs variables et leur dérivation)
+Exo7. [Cours d'analyse de 2ème année](http://exo7.emath.fr/cours/cours-fpv.pdf) (voir Ch. 1 et 2 sur les fonctions de plusieurs variables et leur dérivation)
 
 ## Évaluation
 

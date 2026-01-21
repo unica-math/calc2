@@ -5,9 +5,15 @@
 
 [Discussions](https://github.com/unica-math/calc2/discussions/1)
 
+[ADE SPSIT1-400](https://ade-consult.univ-cotedazur.fr)
+
 [Plan du cours](cm/cm.md)
 
-[ADE SPSIT1-400](https://ade-consult.univ-cotedazur.fr)
+[TD1 - Nombres complexes](td1/td1.pdf)
+
+TD2 - Équations différentielles linéaires
+
+TD3 - Fonctions de plusieurs variables
 
 ## Bibliographie
 

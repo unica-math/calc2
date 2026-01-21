@@ -5,10 +5,9 @@
 
 ## Ch. 1 - Nombres complexes
 
-- notation algébrique, opérations, conjugué et module, calcul de l’inverse, calcul des racines carrées
-- exponentielle imaginaire et formules d’Euler, argument, calcul du produit et de l'inverse, racines n-ièmes
-- résolution d’une équation de deuxième degré
-- lien avec le calcul vectoriel, interprétation géométrique de C et affixe d’un point du plan
+- notation algébrique, opérations (dont inverse), conjugué et propriétés
+- interprétation géométrique (affixe), module et argument, exponentielle imaginaire et formules d’Euler
+- puissances, formules de De Moivre, équation de degré deux, racines n-ièmes, 
 
 ## Ch. 2 - Équations différentielles linéaires
 

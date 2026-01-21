@@ -48,7 +48,7 @@ Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 
 - Groupe C : H. Dillinger
 - Groupe D : H. Dillinger
 - Groupe E : C. Ghosn
-- Groupe F : C. Ghosn
+- Groupe F : E. Tamagna
 - Groupe G : A. Sangam
 - Groupe H : O. Bisson
 - Groupe I : N. Narvaez

@@ -5,8 +5,6 @@
 
 [Discussions](https://github.com/unica-math/calc2/discussions/1)
 
-[ADE SPSIT1-400](https://ade-consult.univ-cotedazur.fr)
-
 [Plan du cours](cm/cm.md)
 
 [TD1 - Nombres complexes](td1/td1.pdf)
@@ -33,7 +31,8 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 
 - 12 H de CM
 - 18 H de TD
-- [emploi du temps](https://upinfo.univ-cotedazur.fr/data/portail/s2/SPEM201.pdf) (version 2024-25, TBC pour 2025-26)
+- [ADE SPSIT1-400](https://ade-consult.univ-cotedazur.fr)
+- [emploi du temps](https://upinfo.univ-cotedazur.fr/data/portail/s2/SPEM201.pdf) (NB : les créneaux TD sont bien de 1 H 30)
 
 ## Intervenants
 

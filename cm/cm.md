@@ -7,7 +7,7 @@
 
 - notation algébrique, opérations (dont inverse), conjugué et propriétés
 - interprétation géométrique (affixe), module et argument, exponentielle imaginaire et formules d’Euler
-- puissances, formules de De Moivre, équation de degré deux, racines n-ièmes, similitudes
+- puissances, formules de De Moivre, équation de degré deux (et théorème de d'Alembert), racines n-ièmes, similitudes
 
 ## Ch. 2 - Équations différentielles linéaires
 

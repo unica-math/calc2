@@ -39,28 +39,28 @@ Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 Cours magistraux (1 séance hebdomadaire de 2 H sur 6 semaines, du 19/01 au 06/03/2026) :
 - G01 : J.-B. Caillau, Je 10:15-12:15 (amphi Math)
 - G02 : K. Kozhasov, Me 08:00-10:00 (amphi Math)
-- G03 : J.-B. Caillau, Lu 13:15-15:15 (amphi Math)
+- G03 : J-B. Caillau, Lu 13:15-15:15 (amphi Math)
 
 Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 13/03/2026) :
 - Groupe A : J.-B. Caillau
-- Groupe B : V. Kostov
-- Groupe C : H. Dillinger
-- Groupe D : H. Dillinger
+- Groupe G07 : V. Kostov
+- Groupe G02 : H. Dillinger
+- Groupe G12 : H. Dillinger
 - Groupe E : C. Ghosn
 - Groupe F : E. Tamagna
-- Groupe G : A. Sangam
-- Groupe H : O. Bisson
+- Groupe G01 : A. Sangam
+- Groupe G14 : O. Bisson
 - Groupe I : N. Narvaez
 - Groupe J : A. Douai
-- Groupe K : T. Jacumin
-- Groupe L : N. Torres Escorza
-- Groupe M : M. Krupa
-- Groupe N : M. Krupa
-- Groupe O : D. Hernandez-Aristizabal
-- Groupe P : T. Oudeville
-- Groupe Q : R. Harb
-- Groupe R : E. Pécou
-- Groupe S : I. Beschastnyi
+- Groupe G08 : T. Jacumin
+- Groupe G03 : N. Torres Escorza
+- Groupe G09 : M. Krupa
+- Groupe G11 : M. Krupa
+- Groupe G05 : D. Hernandez-Aristizabal
+- Groupe G04 : T. Oudeville
+- Groupe G13 : R. Harb
+- Groupe G10 : E. Pécou
+- Groupe G06 : I. Beschastnyi
 
 Examens :
 - CC no. 1 : 14/02/2025 (horaire et salle TBC) 

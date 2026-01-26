@@ -42,25 +42,25 @@ Cours magistraux (1 séance hebdomadaire de 2 H sur 6 semaines, du 19/01 au 06/0
 - G03 : J-B. Caillau, Lu 13:15-15:15 (amphi Math)
 
 Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 13/03/2026) :
-- Groupe A : J.-B. Caillau
-- Groupe G07 : V. Kostov
-- Groupe G02 : H. Dillinger
-- Groupe G12 : H. Dillinger
-- Groupe E : C. Ghosn
-- Groupe F : E. Tamagna
 - Groupe G01 : A. Sangam
-- Groupe G14 : O. Bisson
-- Groupe I : N. Narvaez
-- Groupe J : A. Douai
-- Groupe G08 : T. Jacumin
+- Groupe G02 : H. Dillinger
 - Groupe G03 : N. Torres Escorza
-- Groupe G09 : M. Krupa
-- Groupe G11 : M. Krupa
-- Groupe G05 : D. Hernandez-Aristizabal
 - Groupe G04 : T. Oudeville
-- Groupe G13 : R. Harb
-- Groupe G10 : E. Pécou
+- Groupe G05 : D. Hernandez-Aristizabal
 - Groupe G06 : I. Beschastnyi
+- Groupe G07 : V. Kostov
+- Groupe G08 : T. Jacumin
+- Groupe G09 : M. Krupa
+- Groupe G10 : E. Pécou
+- Groupe G11 : M. Krupa
+- Groupe G12 : H. Dillinger
+- Groupe G13 : R. Harb
+- Groupe G14 : O. Bisson
+- Groupe G15 : J.-B. Caillau + TBC
+- Groupe G20 : E. Tamagna
+- Groupe G21 : N. Narvaez
+- Groupe G22 : A. Douai
+- Groupe G24 : C. Ghosn
 
 Examens :
 - CC no. 1 : 14/02/2025 (horaire et salle TBC) 

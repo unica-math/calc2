@@ -26,7 +26,7 @@ $$\frac{3 + 6i}{3 - 4i} \quad ; \quad \left(\frac{1 + i}{2 - i}\right)^2 + \frac
 
 On considère $a, b, c \in \mathbf{C}$, tels que $|a| = |b| = |c| = 1$.
 
-Montrer que $|ab + bc + ac| = |a + b + c|$.
+Montrer que $|ab + bc + ac| = |a + b + c|$. (Indication : diviser le membre de gauche par $|abc|$.)
 
 ---
 
@@ -50,7 +50,7 @@ $$z_1 = i, \quad z_2 = 1 + i, \quad z_3 = 2 + 2i, \quad z_4 = e^{i\frac{\pi}{3}}
 ### Exercice 6
 
 1. Mettre sous forme trigonométrique les nombres complexes suivants :
-   $$z_1 = 3 + 3i, \quad z_2 = 1 - \sqrt{3}i, \quad z_3 = \frac{4}{3}i, \quad z_4 = -2, \quad z_5 = e^{i\alpha} + e^{2i\alpha} \text{ (avec } \alpha \in [0;\pi])$$
+   $$z_1 = 3 + 3i, \quad z_2 = 1 - \sqrt{3}i, \quad z_3 = \frac{4}{3}i, \quad z_4 = -2, \quad z_5 = e^{i\alpha} + e^{2i\alpha}
 
 2. Calculer $\left(\frac{-1+i\sqrt{3}}{2}\right)^{2025}$.
 
@@ -126,7 +126,7 @@ Calculer les racines carrées de $\frac{1+i}{\sqrt{2}}$. En déduire les valeurs
 
 Soient $n \in \mathbf{N}$ et $x \in \mathbf{R}$. On suppose que $\forall k \in \mathbf{Z}$, $x/2^k$ n'est pas un multiple de $\pi$.
 
-Calculer $P_n = \prod_{k=0}^{n} \cos\left(\frac{x}{2^k}\right)$.
+Calculer $P_n = \prod_{k=0}^{n} \cos\left(\frac{x}{2^k}\right)$. (Indication : utiliser $\sin(2\alpha) = 2\sin\alpha\cos\alpha$.)
 
 ---
 

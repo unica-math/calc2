@@ -56,7 +56,7 @@ Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 
 - Groupe G12 : H. Dillinger
 - Groupe G13 : R. Harb
 - Groupe G14 : F. Bounazou
-- Groupe G15 : J.-B. Caillau + TBC
+- Groupe G15 : J.-B. Caillau + N. Augier
 - Groupe G20 : E. Tamagna
 - Groupe G21 : N. Narvaez
 - Groupe G22 : A. Douai

@@ -63,5 +63,5 @@ Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 
 - Groupe G24 : C. Ghosn
 
 Examens :
-- CC no. 1 : 14/02/2025 (horaire et salle TBC) 
-- CC no. 2 : 27/03/2026 (horaire et salle TBC)
+- CC no. 1 : 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat.)
+- CC no. 2 : ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)

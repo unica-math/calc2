@@ -29,6 +29,10 @@ Exo7. [Cours d'analyse de 2ème année](http://exo7.emath.fr/cours/cours-fpv.pdf
 
 Exam CC no. 1 (coeff. 1) + exam CC no. 2 (coeff. 1)
 
+Examens :
+- CC no. 1 : 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat.)
+- CC no. 2 : ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)
+
 ## Organisation
 
 - 12 H de CM
@@ -63,7 +67,3 @@ Travaux dirigés (2 séances hebdomadaires d'1 H 30 sur 6 semaines, du 26/01 au 
 - Groupe G21 : N. Narvaez
 - Groupe G22 : A. Douai
 - Groupe G24 : C. Ghosn
-
-Examens :
-- CC no. 1 : 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat.)
-- CC no. 2 : ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)

@@ -4,7 +4,7 @@
 # Calculus 2
 # 2025-26
 
-# TD 1 - Nombres xomplexes
+# TD 1 - Nombres complexes
 
 ---
 

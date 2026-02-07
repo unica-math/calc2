@@ -91,7 +91,7 @@ On considère les nombres complexes $z_1 = e^{ia}$ et $z_2 = e^{ib}$ (avec $a$ e
 
 ### Exercice 10
 
-On considère ici $a$ et $b$ deux nombres complexes.
+On considère ici $a$ et $b$ deux nombres réels.
 
 1. Factoriser $e^{ia} + e^{ib}$ par $e^{i\frac{a+b}{2}}$. On simplifiera l'expression obtenue en utilisant les formules d'Euler.
 

@@ -27,11 +27,9 @@ Exo7. [Cours d'analyse de 2ème année](http://exo7.emath.fr/cours/cours-fpv.pdf
 
 ## Évaluation
 
-En CCI (= contrôle continu intégral) avec deux examens de CC
-
-Exam CC no. 1 (coeff. 1) : 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat.)
-
-Exam CC no. 2 (coeff. 1) : ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)
+En CCI (= contrôle continu intégral) avec deux examens de CC :
+- Exam CC no. 1 (coeff. 1), 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat.)
+- Exam CC no. 2 (coeff. 1), ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)
 
 ## Organisation
 

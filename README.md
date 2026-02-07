@@ -8,7 +8,7 @@
 [Plan du cours](cm/cm.md)
 
 [TD1 - Nombres complexes](td1/td1.pdf)
-([corrigé](td1/td1-corr.pdf)
+([corrigé](td1/td1-corr.pdf))
 
 [TD2 - Équations différentielles linéaires](td2/td2.pdf)
 ([corrigé ordre 1](td2/td2-corr.pdf))

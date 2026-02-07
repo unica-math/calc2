@@ -9,7 +9,7 @@
 
 [TD1 - Nombres complexes](td1/td1.pdf)
 
-TD2 - Équations différentielles linéaires
+[TD2 - Équations différentielles linéaires](td2/td2.pdf)
 
 TD3 - Fonctions de plusieurs variables
 

@@ -60,7 +60,7 @@ avec $C \in \mathbb{R}$, $x \in I_k$. Il convient de noter que la constante $C$ 
 
 1. On cherche une solution particulière de $(E)$, de la forme $y(x) = ax$ pour $x \in ]0,\infty[$. En injectant $y(x) = ax$ dans $(E)$, il vient
 
-$$a - \frac{ax}{x} - a^2 x^2 = 9x^2$$
+$$a - \frac{ax}{x} - a^2 x^2 = -9x^2$$
 
 donc $a^2 = 9$. On peut prendre $y_0(x) = 3x$ comme solution particulière de $(E)$ définie sur $]0,\infty[$.
 

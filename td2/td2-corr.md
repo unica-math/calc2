@@ -62,7 +62,7 @@ avec $C \in \mathbb{R}$, $x \in I_k$. Il convient de noter que la constante $C$ 
 
 $$a - \frac{ax}{x} - a^2 x^2 = 9x^2$$
 
-donc $\frac{a}{2} = 9$. On peut prendre $y_0(x) = 3x$ comme solution particulière de $(E)$ définie sur $]0,\infty[$.
+donc $a^2 = 9$. On peut prendre $y_0(x) = 3x$ comme solution particulière de $(E)$ définie sur $]0,\infty[$.
 
 2. Effectuons le changement de fonction inconnue suivant : $y(x) = y_0(x) - \frac{1}{z(x)}$ où $z$ est une fonction définie sur $]0,\infty[$ à trouver. Ici $y_0(x) = 3x$ donc $y(x) = 3x - \frac{1}{z(x)}$. On calcule la dérivée et le carré de $y(x)$ pour l'injecter dans $(E)$ :
 

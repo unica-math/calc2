@@ -88,7 +88,7 @@ Cf. cours...
 
 ## Solution 6
 
-1. On cherche d'abord le module du nombre complexe $z = x + iy$, qui est $r = \sqrt{x^2 + y^2} > 0$. On cherche ensuite un argument de $z$, qui est l'angle $\theta$ tel que $\cos\theta = x/r$, $\sin\theta = y/r$, avec en outre par exemple $\theta \in ]-\pi;\pi]$ ou $\theta \in [0; 2\pi[$.
+1. On cherche d'abord le module du nombre complexe $z = x + iy$, qui est $r = \sqrt{x^2 + y^2} > 0$. On cherche ensuite un argument de $z$, qui est l'angle $\theta$ tel que $\cos\theta = x/r$, $\sin\theta = y/r$, avec en outre par exemple $\theta \in ]-\pi,\pi]$ ou $\theta \in [0, 2\pi[$.
 
 Pour $z_1$, on trouve $r_1 = \sqrt{18} = 3\sqrt{2}$ et $\theta_1 \in ]-\pi;\pi]$ tel que $\cos\theta_1 = \sin\theta_1 = 1/\sqrt{2}$, soit $\theta_1 = \frac{\pi}{4}$.
 
@@ -111,9 +111,9 @@ $$\sin\alpha + \sin 2\alpha = 2\sin(3\alpha/2) \times \cos(\alpha/2)$$
 
 Soit $e^{i\alpha} + e^{2i\alpha} = 2\cos(\alpha/2) \times (\cos(3\alpha/2) + i\sin(3\alpha/2))$.
 
-Puisque l'on a supposé $\alpha \in [0;\pi]$, $\alpha/2 \in [0;\pi/2]$, et $\cos(\alpha/2) \in [0; 1]$ et est donc $> 0$. Il vient que $r_5 = 2\cos(\alpha/2) > 0$.
+Puisque l'on a supposé $\alpha \in [0;\pi]$, $\alpha/2 \in [0;\pi/2]$, et $\cos(\alpha/2) \in [0,1]$ et est donc $> 0$. Il vient que $r_5 = 2\cos(\alpha/2) > 0$.
 
-Si l'on adopte (pour simplifier !) la convention $\theta_5 = \arg(z_5) \in [0; 2\pi[$, alors on peut prendre $\theta_5 = 3\alpha/2$ qui est bien dans cet intervalle ($\alpha \in [0;\pi] \Rightarrow 3\alpha/2 \in [0; 3\pi/2]$).
+Si l'on adopte (pour simplifier !) la convention $\theta_5 = \arg(z_5) \in [0; 2\pi[$, alors on peut prendre $\theta_5 = 3\alpha/2$ qui est bien dans cet intervalle ($\alpha \in [0;\pi] \Rightarrow 3\alpha/2 \in [0,3\pi/2]$).
 
 **Deuxième méthode (qui est celle à privilégier...)**
 
@@ -123,7 +123,7 @@ Or $1 + e^{i\alpha} = e^{i\alpha/2}(e^{-i\alpha/2} + e^{i\alpha/2})$ ;
 
 et comme $e^{i\alpha/2} + e^{-i\alpha/2} = 2\cos(\alpha/2)$, il vient $e^{i\alpha} + e^{2i\alpha} = 2\cos(\alpha/2)e^{3i\alpha/2}$ et le résultat.
 
-2. On reconnaît tout d'abord le nombre complexe $\frac{1+i\sqrt{3}}{2} = e^{i\frac{\pi}{3}}$ (complexe de module 1 et d'argument $\frac{\pi}{3} \in ]-\pi;\pi]$, car $\cos\frac{\pi}{3} = \frac{1}{2}$ et $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$).
+2. On reconnaît tout d'abord le nombre complexe $\frac{1+i\sqrt{3}}{2} = e^{i\frac{\pi}{3}}$ (complexe de module 1 et d'argument $\frac{\pi}{3} \in ]-\pi,\pi]$, car $\cos\frac{\pi}{3} = \frac{1}{2}$ et $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$).
 
 Ensuite, on forme $\left(\frac{1+i\sqrt{3}}{2}\right)^{2025} = e^{i\frac{2025\pi}{3}} = e^{i675\pi} = e^{i\pi} = -1$.
 

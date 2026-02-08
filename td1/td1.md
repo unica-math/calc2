@@ -50,7 +50,7 @@ $$z_1 = i, \quad z_2 = 1 + i, \quad z_3 = 2 + 2i, \quad z_4 = e^{i\frac{\pi}{3}}
 ### Exercice 6
 
 1. Mettre sous forme trigonométrique les nombres complexes suivants :
-   $$z_1 = 3 + 3i, \quad z_2 = 1 - \sqrt{3}i, \quad z_3 = \frac{4}{3}i, \quad z_4 = -2, \quad z_5 = e^{i\alpha} + e^{2i\alpha}
+   $$z_1 = 3 + 3i, \quad z_2 = 1 - \sqrt{3}i, \quad z_3 = \frac{4}{3}i, \quad z_4 = -2, \quad z_5 = e^{i\alpha} + e^{2i\alpha}$$
 
 2. Calculer $\left(\frac{1+i\sqrt{3}}{2}\right)^{2025}$.
 
@@ -227,6 +227,6 @@ Montrer que l'ensemble des points $M$ tel que $\frac{MA}{MB} = k$ est
 
 Soient $a, b$ et $c$ trois nombres complexes de module 1 et d'arguments respectifs $\alpha, \beta, \gamma$. Les points $A, B, C$ d'affixes respectifs $a, b, c$ sont supposés distincts.
 
-1. Établir la relation $\left(\frac{a - c}{b - c}\right)^2 = \lambda\frac{a}{b}$ avec $\lambda \in \mathbf{R}$ que l'on déterminera en fonction de $\alpha, \beta$ et $\gamma$.
+1. Établir la relation $(\frac{a - c}{b - c})^2 = \lambda\frac{a}{b}$ avec $\lambda \in \mathbf{R}$ que l'on déterminera en fonction de $\alpha, \beta$ et $\gamma$.
 
 2. Interprétation géométrique ? (Faire un dessin, bis).

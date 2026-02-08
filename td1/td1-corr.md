@@ -123,9 +123,9 @@ Or $1 + e^{i\alpha} = e^{i\alpha/2}(e^{-i\alpha/2} + e^{i\alpha/2})$ ;
 
 et comme $e^{i\alpha/2} + e^{-i\alpha/2} = 2\cos(\alpha/2)$, il vient $e^{i\alpha} + e^{2i\alpha} = 2\cos(\alpha/2)e^{3i\alpha/2}$ et le résultat.
 
-2. On reconnaît tout d'abord le nombre complexe $\frac{-1+i\sqrt{3}}{2} = e^{i\frac{\pi}{3}}$ (complexe de module 1 et d'argument $\frac{\pi}{3} \in ]-\pi;\pi]$, car $\cos\frac{\pi}{3} = -\frac{1}{2}$ et $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$).
+2. On reconnaît tout d'abord le nombre complexe $\frac{1+i\sqrt{3}}{2} = e^{i\frac{\pi}{3}}$ (complexe de module 1 et d'argument $\frac{\pi}{3} \in ]-\pi;\pi]$, car $\cos\frac{\pi}{3} = \frac{1}{2}$ et $\sin\frac{\pi}{3} = \frac{\sqrt{3}}{2}$).
 
-Ensuite, on forme $\left(\frac{-1+i\sqrt{3}}{2}\right)^{2025} = e^{i\frac{2025\pi}{3}} = e^{i675\pi} = e^{i\pi} = -1$.
+Ensuite, on forme $\left(\frac{1+i\sqrt{3}}{2}\right)^{2025} = e^{i\frac{2025\pi}{3}} = e^{i675\pi} = e^{i\pi} = -1$.
 
 ---
 

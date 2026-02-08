@@ -52,7 +52,7 @@ $$z_1 = i, \quad z_2 = 1 + i, \quad z_3 = 2 + 2i, \quad z_4 = e^{i\frac{\pi}{3}}
 1. Mettre sous forme trigonométrique les nombres complexes suivants :
    $$z_1 = 3 + 3i, \quad z_2 = 1 - \sqrt{3}i, \quad z_3 = \frac{4}{3}i, \quad z_4 = -2, \quad z_5 = e^{i\alpha} + e^{2i\alpha}
 
-2. Calculer $\left(\frac{-1+i\sqrt{3}}{2}\right)^{2025}$.
+2. Calculer $\left(\frac{1+i\sqrt{3}}{2}\right)^{2025}$.
 
 ---
 

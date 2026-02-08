@@ -88,7 +88,7 @@ par la méthode de variation de la constante. On précisera l'intervalle de déf
 
 On se propose d'intégrer sur l'intervalle le plus grand possible contenu dans $]0,\infty[$ l'équation différentielle :
 
-$$(E) \quad y'(x) - \frac{y(x)}{x} - \frac{y(x)}{2} = 9x^2$$
+$$(E) \quad y'(x) - \frac{y(x)}{x} - y^2(x) = 9x^2$$
 
 1. Déterminer $a \in ]0,\infty[$ tel que $y(x) = ax$ soit une solution particulière $y_0$ de $(E)$.
 

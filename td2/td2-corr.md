@@ -14,7 +14,7 @@ a) $y = \frac{1}{2}[\log(x)]^2 + \text{Cte}$ ;
 
 b) Supposons $x \neq -\frac{1}{2}$. Alors $y' = -\frac{x^2+x-2}{2x+1}$ et donc $y' = -\frac{x}{2} - \frac{1}{4} + \frac{9}{4(2x+1)}$, ce qui donne $y = -\frac{x^2}{4} - \frac{x}{4} + \frac{9}{8}\log|2x + 1| + C$. Attention, la constante $C$ dépend de l'intervalle : $C = C_1$ sur $]-\infty,-\frac{1}{2}[$ et $C = C_2$ sur $]-\frac{1}{2},\infty[$.
 
-c) $y = \frac{1}{4}(e^x + C)^2$ sur $\mathbb{R}$.
+c) $y = Ce^{e^x}$ sur $\mathbb{R}$.
 
 ---
 

@@ -15,6 +15,8 @@
 
 TD3 - Fonctions de plusieurs variables
 
+[Exam CC no. 1 (entraînement)](exam-cc1-old/exam-cc1.pdf)
+
 ## Bibliographie
 
 Deschamps, C.; Moulin, F.; Gentric, Y.; Bourrigan, M.; Delsinne, E. *et al.* *Maths PCSI. Tout-en-un.* Dunod, 2024

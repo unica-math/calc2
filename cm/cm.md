@@ -11,8 +11,8 @@
 
 ## Ch. 2 - Équations différentielles linéaires
 
-- EDO linéaires d'ordre 1, coefficient constant ou variable, avec second membre, principe de superposition, variation de la constante
-- EDO linéaires d'ordre 2 à coefficients constants, avec second membre, principe de superposition
+- EDO linéaires d'ordre 1 à coefficient variable, sans et avec second membre (principe de superposition et variation de la constante)
+- EDO linéaires d'ordre 2 à coefficients *constants*, sans et avec second membre (principe de superposition et variation de la constante)
 
 ## Ch. 3 - Fonctions de plusieurs variables
 

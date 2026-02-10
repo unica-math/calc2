@@ -6,6 +6,7 @@
 | 2 | ABBAS | SYRINE | 22503914 | Chimie |  |
 | 3 | AGGOUN | HARONE | 22415724 | Chimie |  |
 | 4 | AKALAI | ACHIR | 22500817 | Chimie |  |
+| 4A | ALBERTINI | LOIC | 22410496 | Chimie | | 
 | 5 | ALI-CHERIF | KEYAN | 22411551 | Chimie |  |
 | 6 | ALIOUECHE KERBOUA | MOHAMED | 22500432 | Chimie |  |
 | 7 | AMAL | SELMA | 22504884 | Chimie |  |

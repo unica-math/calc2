@@ -10,7 +10,7 @@
 
 Ce sont des équations à variables séparables.
 
-a) $y = \frac{1}{2}[\log(x)]^2 + \text{Cte}$ ;
+a) $y = -\frac{1}{2}[\log(x)]^2 + \text{Cte}$, soit sur $I = ]-\infty,0[$, soit sur $I = ]0,\infty[$ (la cte dépendant de l'intervalle, sans possibilité de prolonger à $\mathbb{R}$.
 
 b) Supposons $x \neq -\frac{1}{2}$. Alors $y' = -\frac{x^2+x-2}{2x+1}$ et donc $y' = -\frac{x}{2} - \frac{1}{4} + \frac{9}{4(2x+1)}$, ce qui donne $y = -\frac{x^2}{4} - \frac{x}{4} + \frac{9}{8}\log|2x + 1| + C$. Attention, la constante $C$ dépend de l'intervalle : $C = C_1$ sur $]-\infty,-\frac{1}{2}[$ et $C = C_2$ sur $]-\frac{1}{2},\infty[$.
 
@@ -20,7 +20,7 @@ c) $y = Ce^{e^x}$ sur $\mathbb{R}$.
 
 ## Solution 2
 
-a) La solution générale de l'équation homogène (SGEH) est $y = Ce^{\frac{x}{2}}$. Or $y_0 = 2$ est une solution particulière de l'équation non homogène (SPENH). D'où la solution générale de l'équation non homogène (SGENH) $y = 2 + Ce^{\frac{x}{2}}$.
+a) La solution générale de l'équation homogène (SGEH) est $y = Ce^{\frac{x}{2}}$. Or $y_0 = -2$ est une solution particulière de l'équation non homogène (SPENH). D'où la solution générale de l'équation non homogène (SGENH) $y = -2 + Ce^{\frac{x}{2}}$.
 
 b) Idem. On trouve $y = Ce^{2x} + \frac{1}{2}$.
 
@@ -70,7 +70,7 @@ $$y'(x) = 3 + \frac{z'(x)}{z^2(x)} \quad \text{et} \quad y^2(x) = 9x^2 - \frac{6
 
 En injectant dans $(E)$ il vient
 
-$$3 + \frac{z'(x)}{z^2(x)} - \frac{3}{x} + \frac{1}{xz(x)} - \frac{9x^2}{2} + \frac{6x}{2z(x)} - \frac{1}{2z^2(x)} = 9x^2$$
+$$3 + \frac{z'(x)}{z^2(x)} - 3 + \frac{1}{xz(x)} - 9x^2 + \frac{6x}{z(x)} - \frac{1}{z^2(x)} = 9x^2$$
 
 d'où en simplifiant et arrangeant, il vient :
 

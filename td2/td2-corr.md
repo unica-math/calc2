@@ -70,7 +70,7 @@ $$y'(x) = 3 + \frac{z'(x)}{z^2(x)} \quad \text{et} \quad y^2(x) = 9x^2 - \frac{6
 
 En injectant dans $(E)$ il vient
 
-$$3 + \frac{z'(x)}{z^2(x)} - 3 + \frac{1}{xz(x)} - 9x^2 + \frac{6x}{z(x)} - \frac{1}{z^2(x)} = 9x^2$$
+$$ 3 + \frac{z'(x)}{z^2(x)} - 3 + \frac{1}{xz(x)} - 9x^2 + \frac{6x}{z(x)} - \frac{1}{z^2(x)} = -9x^2 $$
 
 d'où en simplifiant et arrangeant, il vient :
 

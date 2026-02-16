@@ -16,5 +16,16 @@
 
 ## Ch. 3 - Fonctions de plusieurs variables
 
-- calcul de dérivées partielles, gradient
-- plan tangent, lignes de niveau, extréma locaux
+- rappels : produit scalaire, norme associée, boules, ouverts
+- fonctions de $\mathbf{R}^n$ dans $\mathbf{R}$, ensemble (domaine) de définition
+- image, graphe ($n = 2$)
+- limite, continuité en un point ($f(x, y) = xy / \sqrt{x^2 + y^2}$)
+- dérivée ($n = 1$), dérivées partielles ($n \geq 1$)
+- Th. déf. : dérivée quand les dérivées partielles existent et sont continues (notation $\mathscr{C}^1$)
+- expression de $f(x + h)$ dans ce cas et continuité
+- contrexemple : $f(x,y) = xy / (x^2 + y^2)$
+- gradient
+- dérivées partielles d'ordre supérieur
+- lignes et courbes de niveau (ex. $f(x, y) = x^2 + y^2$)
+- plan tangent
+- extréma sans contraintes

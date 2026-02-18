@@ -19,6 +19,8 @@ TD3 - Fonctions de plusieurs variables
 
 [Exam CC no. 1](exam-cc1/exam-cc1.pdf)
 
+[Règlement des études UniCA](https://univ-cotedazur.fr/medias/fichier/cac-2025-24-reglementation-des-examens_1752069984689-pdf)
+
 ## Bibliographie
 
 Deschamps, C.; Moulin, F.; Gentric, Y.; Bourrigan, M.; Delsinne, E. *et al.* *Maths PCSI. Tout-en-un.* Dunod, 2024

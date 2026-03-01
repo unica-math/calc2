@@ -11,9 +11,9 @@
 ([corrigé](td1/td1-corr.pdf))
 
 [TD2 - Équations différentielles linéaires](td2/td2.pdf)
-([corrigé ordre 1](td2/td2-corr.pdf))
+([corrigé](td2/td2-corr.pdf))
 
-TD3 - Fonctions de plusieurs variables
+[TD3 - Fonctions de plusieurs variables](td3/td3.pdf)
 
 [Exam CC no. 1 (entraînement)](exam-cc1-old/exam-cc1.pdf)
 

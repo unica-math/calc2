@@ -10,7 +10,7 @@
 
 Ce sont des équations à variables séparables.
 
-a) $y = -\frac{1}{2}[\log(x)]^2 + \text{Cte}$, soit sur $I = ]-\infty,0[$, soit sur $I = ]0,\infty[$ (la cte dépendant de l'intervalle, sans possibilité de prolonger à $\mathbb{R}$.
+a) $y = -\frac{1}{2}[\log(x)]^2 + \text{Cte}$ sur $I = ]0,+\infty[$, l'équation faisant intervenir $\log(x)$ n'a de sens que sur cet intervalle.
 
 b) Supposons $x \neq -\frac{1}{2}$. Alors $y' = -\frac{x^2+x-2}{2x+1}$ et donc $y' = -\frac{x}{2} - \frac{1}{4} + \frac{9}{4(2x+1)}$, ce qui donne $y = -\frac{x^2}{4} - \frac{x}{4} + \frac{9}{8}\log|2x + 1| + C$. Attention, la constante $C$ dépend de l'intervalle : $C = C_1$ sur $]-\infty,-\frac{1}{2}[$ et $C = C_2$ sur $]-\frac{1}{2},\infty[$.
 

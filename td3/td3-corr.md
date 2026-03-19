@@ -230,7 +230,7 @@ y = \frac{1}{4}
 \text{ ou }
 \begin{cases}
 x = -2 \\
-y = \frac{1}{4}
+y = -\frac{1}{4}
 \end{cases}$$
 
 qui sont donc les seuls candidats. En faisant $y=0$ et $x \to \pm\infty$, on voit que $f$ n'a ni minimum ni maximum.
@@ -241,11 +241,11 @@ Ainsi, $(rt - s^2)\left(2, \frac{1}{4}\right) = (rt - s^2)\left(-2, \frac{1}{4}\
 
 Ceci implique que $f$ n'admet pas d'extremum local en $\left(2, \frac{1}{4}\right)$ ou $\left(-2, \frac{1}{4}\right)$.
 
-2. La fonction $g$ est de classe $C^2$ sur $\mathbb{R}^2$ en tant que polynôme à plusieurs variables. Si $g$ admet un extremum  en $(x_0, y_0) \in \mathbb{R}^2$, alors $(x_0, y_0)$ est un point critique de $f$. Soit $(x, y) \in \mathbb{R}^2$.
+2. La fonction $g$ est de classe $C^2$ sur $\mathbb{R}^2$ en tant que polynôme à plusieurs variables. Si $g$ admet un extremum  en $(x_0, y_0) \in \mathbb{R}^2$, alors $(x_0, y_0)$ est un point critique. Soit $(x, y) \in \mathbb{R}^2$.
 
 $$\begin{cases}
-\frac{\partial f}{\partial x}(x, y) = 0 \\
-\frac{\partial f}{\partial y}(x, y) = 0
+\frac{\partial g}{\partial x}(x, y) = 0 \\
+\frac{\partial g}{\partial y}(x, y) = 0
 \end{cases}
 \Leftrightarrow
 \begin{cases}
@@ -267,7 +267,7 @@ $$\Leftrightarrow (x, y) \in \left\{(0, 0), \left(\sqrt{2}, -\sqrt{2}\right), \l
 
 De plus, pour tout $(x, y) \in \mathbb{R}^2$,
 
-$$g(x, y) - g\left(\sqrt{2}, -\sqrt{2}\right) = 2(x - y)^2 + x^4 + y^4 - 8 = x^4 + y^4 - 2x^2 - 2y^2 + 4xy + 8$$
+$$g(x, y) - g\left(\sqrt{2}, -\sqrt{2}\right) = 2(x - y)^2 + x^4 + y^4 + 8 = x^4 + y^4 - 2x^2 - 2y^2 + 4xy + 8$$
 
 $$\geq x^4 + y^4 - 2x^2 - 2y^2 - 2(x^2 + y^2) + 8$$
 

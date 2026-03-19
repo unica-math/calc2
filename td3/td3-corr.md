@@ -265,9 +265,9 @@ x^3 - 2x = 0
 
 $$\Leftrightarrow (x, y) \in \left\{(0, 0), \left(\sqrt{2}, -\sqrt{2}\right), \left(-\sqrt{2}, \sqrt{2}\right)\right\}$$
 
-De plus, pour tout $(x, y) \in \mathbb{R}^2$,
+De plus, pour tout $(x, y) \in \mathbb{R}^2$ (en utilisant $2|xy| \leq x^2 + y^2$),
 
-$$g(x, y) - g\left(\sqrt{2}, -\sqrt{2}\right) = 2(x - y)^2 + x^4 + y^4 + 8 = x^4 + y^4 - 2x^2 - 2y^2 + 4xy + 8$$
+$$g(x, y) - g\left(\sqrt{2}, -\sqrt{2}\right) = -2(x - y)^2 + x^4 + y^4 + 8 = x^4 + y^4 - 2x^2 - 2y^2 + 4xy + 8$$
 
 $$\geq x^4 + y^4 - 2x^2 - 2y^2 - 2(x^2 + y^2) + 8$$
 

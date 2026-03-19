@@ -120,7 +120,7 @@ $$\forall (x, y) \in \mathbb{R}^2, \quad f(x, y) = (x - y)^2(x + y) + 16x^2$$
 
 1. $f(x, y) = x^3 + 3x^2 y - 15x - 12y$
 
-2. $g(x, y) = 2(x - y)^2 + x^4 + y^4$
+2. $g(x, y) = -2(x - y)^2 + x^4 + y^4$
 
 ---
 

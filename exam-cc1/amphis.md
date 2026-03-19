@@ -1,4 +1,4 @@
-# Exam CC no. 1 Calculus 2 - Répartition étudiants par amphi
+# Exam CC no. 1 et no. 2 Calculus 2 - Répartition étudiants par amphi
 
 | N° | Nom | Prénom | N° Étudiant | Amphi | Sign. |
 |----|-----|--------|-------------|-------|------------|

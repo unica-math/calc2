@@ -14,6 +14,7 @@
 ([corrigé](td2/td2-corr.pdf))
 
 [TD3 - Fonctions de plusieurs variables](td3/td3.pdf)
+([corrigé](td3/td3-corr.pdf))
 
 [Exam CC no. 1 (entraînement)](exam-cc1-old/exam-cc1.pdf)
 

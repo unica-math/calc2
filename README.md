@@ -20,6 +20,8 @@
 
 [Exam CC no. 1](exam-cc1/exam-cc1.pdf)
 
+[Exam CC no. 2 (entraînement)](exam-cc2-old/exam-cc2.pdf)
+
 [Règlement des études UniCA](https://univ-cotedazur.fr/medias/fichier/cac-2025-24-reglementation-des-examens_1752069984689-pdf)
 
 [MCC du portail SITE](https://univ-cotedazur.fr/portails/site/examens/controle-des-connaissances)

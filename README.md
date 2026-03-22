@@ -18,7 +18,7 @@
 
 [Exam CC no. 1 (entraînement)](exam-cc1-old/exam-cc1.pdf)
 
-[Exam CC no. 2 (entraînement)](exam-cc2-old/exam-cc2.pdf)
+[Exam CC no. 2 (entraînement](exam-cc2-old/exam-cc2.pdf) et [entraînement bis)](https://github.com/unica-math/calc2/blob/main/exam-cc2-old/exam-cc2-bis.pdf)
 
 [Exam CC no. 1](exam-cc1/exam-cc1.pdf)
 

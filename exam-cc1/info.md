@@ -1,0 +1,162 @@
+# Amphithéâtre Info
+
+**Étudiants n° 157 à 312 (156 étudiants)**
+
+| N° | Nom | Prénom | N° Étudiant | Amphi | Émargement |
+|----|-----|--------|-------------|-------|------------|
+| 157 | BOUHRIBA | NAIL | 22506552 | Info |  |
+| 158 | BOULAYCH | IMANE | 22503063 | Info |  |
+| 159 | BOULAYCH | WIAM | 22500873 | Info |  |
+| 160 | BOULET | KIMI | 22513943 | Info |  |
+| 161 | BOULKRA | AHMED | 22502567 | Info |  |
+| 162 | BOUOTHMANE | WAJDI | 22409440 | Info |  |
+| 163 | BOURAS | LOWEY | 22408241 | Info |  |
+| 164 | BOURAYEV | DOKKA | 22410524 | Info |  |
+| 165 | BOURESSAS | MEHDI | 22408102 | Info |  |
+| 166 | BOURESSAS | WASSIM | 22503803 | Info |  |
+| 167 | BOURIHANE | FERIEL | 22510741 | Info |  |
+| 168 | BOUROUROU | ADAM | 22402152 | Info |  |
+| 169 | BOUTBOUL | SACHA | 22509613 | Info |  |
+| 170 | BOUZAIDA | MARWEN | 22409453 | Info |  |
+| 171 | BOUZGARROU HASSANI | ANAS | 22508679 | Info |  |
+| 172 | BOVIS | MANON | 22406265 | Info |  |
+| 173 | BRAHIM | LOUJEIN | 22508634 | Info |  |
+| 174 | BRIKI | IMRAN | 22504969 | Info |  |
+| 175 | BRUN | BASTIEN | 22516364 | Info |  |
+| 176 | BULATOV | MAKSIM | 22303916 | Info |  |
+| 177 | BURLAKOV | DANYIL-POLINA | 22511443 | Info |  |
+| 178 | BUSUIOC | CRISTIAN | 22510749 | Info |  |
+| 179 | BUTTIGIEG | CHYARA | 22500115 | Info |  |
+| 180 | CACI | UGO | 22405391 | Info |  |
+| 181 | CALLERISA | EMILIEN | 22507720 | Info |  |
+| 182 | CALLONI | CLEMENCE | 22503975 | Info |  |
+| 183 | CAMARA | IMRANA | 22512065 | Info |  |
+| 184 | CANER | ELIF | 22403984 | Info |  |
+| 185 | CANLERS | PATRICIA | 22507309 | Info |  |
+| 186 | CARDON | JULIETTE | 22503372 | Info |  |
+| 187 | CAROMEL | SAMUEL | 22510054 | Info |  |
+| 188 | CARTON | EMILIE | 22107958 | Info |  |
+| 189 | CASEFONT | MATHEO | 22400514 | Info |  |
+| 190 | CASTELLO | THEO | 22501053 | Info |  |
+| 191 | CAVALLIN | SYDNEY | 22500125 | Info |  |
+| 192 | CAYEZ | CHIARA | 22500283 | Info |  |
+| 193 | CECCOMORI | DIEGO | 22505333 | Info |  |
+| 194 | CEREA | LEONARDO | 22516548 | Info |  |
+| 195 | CERESA | EMILIE-ROSE | 22409496 | Info |  |
+| 196 | CEVIK | ECE | 22412158 | Info |  |
+| 197 | CHAABANE | REDA | 22504303 | Info |  |
+| 198 | CHAARANA | NOUREDDINE | 22500770 | Info |  |
+| 199 | CHACORNAC | ELSA | 22410438 | Info |  |
+| 200 | CHALABI | SERINE | 22504017 | Info |  |
+| 201 | CHAMI | ADAM | 22511998 | Info |  |
+| 202 | CHAMOUX | EMMA | 22401190 | Info |  |
+| 203 | CHAMPURNEY | ARTHUR | 22416042 | Info |  |
+| 204 | CHAMSEDDINE | NADA | 22507267 | Info |  |
+| 205 | CHAOUCH | ERWAN | 22500506 | Info |  |
+| 206 | CHAPUS | MANON | 22504707 | Info |  |
+| 207 | CHARONT | EWAN | 22200702 | Info |  |
+| 208 | CHATTI | FARES | 22402339 | Info |  |
+| 209 | CHATTI | MOHAMED | 22412106 | Info |  |
+| 210 | CHAUTEMPS | ERWAN | 22404815 | Info |  |
+| 211 | CHEKROUN | MATÉO | 22116528 | Info |  |
+| 212 | CHEREMETIEV | NIKOLAI | 22400943 | Info |  |
+| 213 | CHERRAT | AMINE | 22415683 | Info |  |
+| 214 | CHIBOUB | ABDELMOUMEN | 22412271 | Info |  |
+| 215 | CHIGOT | CORALIE | 22305228 | Info |  |
+| 216 | CHIKH | MAYSSA | 22416021 | Info |  |
+| 217 | CHOUIKHA | ALI | 22503330 | Info |  |
+| 218 | CISAMBO | MAIKLS | 22500760 | Info |  |
+| 219 | CLAICHE-PUY | GASPARD | 22415431 | Info |  |
+| 220 | COISSAC | THIBAULT | 22516901 | Info |  |
+| 221 | COLOTTE | SIMON | 22203739 | Info |  |
+| 222 | COMBAUD | TOM | 22513290 | Info |  |
+| 223 | CONSTANT | CORALIE | 22507579 | Info |  |
+| 224 | CONTES | ANTOINE | 22501887 | Info |  |
+| 225 | CONTESTIN | AMELIE | 22301885 | Info |  |
+| 226 | COUDERC | CAROLINE | 22515759 | Info |  |
+| 227 | COVILI | LUCIE | 22503987 | Info |  |
+| 228 | D'ABRIGEON | ARWEN | 22500604 | Info |  |
+| 229 | DA GRACA | FLAVIO | 22002599 | Info |  |
+| 230 | DAHEL | MUSTAPHA | 22410497 | Info |  |
+| 231 | DAHMOUL | YAHIA | 22502354 | Info |  |
+| 232 | DAHMOUNI | CAMIL | 22517947 | Info |  |
+| 233 | DAJON | LUCAS | 22408031 | Info |  |
+| 234 | DALMASSO | JACQUES | 22507585 | Info |  |
+| 235 | DALY | RAYAN | 22508351 | Info |  |
+| 236 | DANY | LORENA | 22504550 | Info |  |
+| 237 | DARMOUL | ANIS | 22203554 | Info |  |
+| 238 | DAVYDOV | DENIS | 22409905 | Info |  |
+| 239 | DE ARAUJO | CELYA | 22500890 | Info |  |
+| 240 | DE BARROS | DIEGO | 22501203 | Info |  |
+| 241 | DE KERMADEC | MATTHIS | 22408033 | Info |  |
+| 242 | DE MASI | MAGDA | 22503013 | Info |  |
+| 243 | DE PASS | EVANN | 22509997 | Info |  |
+| 244 | DE SA | STELLA | 22405062 | Info |  |
+| 245 | DEEGAN | EWAN | 22302347 | Info |  |
+| 246 | DEHAMNA | AMJAD | 22502596 | Info |  |
+| 247 | DEHILI | ELISSA | 22403191 | Info |  |
+| 248 | DELMAS--FANCELLU | MAXIME | 22506885 | Info |  |
+| 249 | DELOYE | TIM | 22513079 | Info |  |
+| 250 | DEMACHY | VICTOR | 22412414 | Info |  |
+| 251 | DEMAILLY | NATHAN | 22501185 | Info |  |
+| 252 | DEMARE | AXEL | 22305734 | Info |  |
+| 253 | DEMDOUM | ANIS | 22403119 | Info |  |
+| 254 | DENIS | JANICE | 22500463 | Info |  |
+| 255 | DEPARDIEU | CLEA | 22408400 | Info |  |
+| 256 | DESBOIS LETH-OLSEN | MATHIS | 22513692 | Info |  |
+| 257 | DEVILLE | HENRI | 22504546 | Info |  |
+| 258 | DEVLIN | KIERAN | 22504800 | Info |  |
+| 259 | DHOUIBI | INES | 22512899 | Info |  |
+| 260 | DIA | NDIOGOU | 22513447 | Info |  |
+| 261 | DIALLO | ISSA | 22510789 | Info |  |
+| 262 | DIALLO | MAMADOU SAFAYIOU | 22512384 | Info |  |
+| 263 | DIALLO | THIERNO MAMADOU FODE | 22410091 | Info |  |
+| 264 | DIAWARA | ARAFAN | 22512334 | Info |  |
+| 265 | DIENA MOUSSAVOU | LOUISE RENATA | 22411672 | Info |  |
+| 266 | DIEYE | NDEYE | 22513068 | Info |  |
+| 267 | DIKOUNDOU | GIANCARLO | 22402642 | Info |  |
+| 268 | DIOP | MANSOUR | 22513106 | Info |  |
+| 269 | DJABALI | AHMED | 22509379 | Info |  |
+| 270 | DJOSSOU | OLADELE BELVIDA CHRI | 22512173 | Info |  |
+| 271 | DO | THANH DAT | 22406378 | Info |  |
+| 272 | DOSE | AXEL | 22001150 | Info |  |
+| 273 | DRIANCOURT | INES | 22407995 | Info |  |
+| 274 | DRIDI | DONIA | 22502597 | Info |  |
+| 275 | DRIDI | LOUAÏ | 22309585 | Info |  |
+| 276 | DRISS | CYRINE | 22503315 | Info |  |
+| 277 | DRISSI | RAYAN | 22417847 | Info |  |
+| 278 | DROALIN | TOM | 22508088 | Info |  |
+| 279 | DUBAND | PAULINE | 22513402 | Info |  |
+| 280 | DUBOSCLARD | FLORIANE | 22505295 | Info |  |
+| 281 | DUBOUX | THOMAS | 22509266 | Info |  |
+| 282 | DUCATEL | MAXENCE | 22404981 | Info |  |
+| 283 | DUDIN | WALEED | 22305810 | Info |  |
+| 284 | DUFORESTEL | THEO | 22508196 | Info |  |
+| 285 | DUMOUCHEL | NOE | 22413358 | Info |  |
+| 286 | DURAND | TOM | 22506091 | Info |  |
+| 287 | DZIRI | SOUFIA INES | 22408667 | Info |  |
+| 288 | ECHCHATI | LEILA | 22511033 | Info |  |
+| 289 | EL GAZZAH | NOURENE | 22300475 | Info |  |
+| 290 | EL HASSANI | DOUNYA | 22510130 | Info |  |
+| 291 | EL JADI | SABRINA | 22403754 | Info |  |
+| 292 | EL KHAWAJA | RAYAN | 22502893 | Info |  |
+| 293 | EL KHEDIRI | EVAN | 22513337 | Info |  |
+| 294 | EL KOUYKH | AMINE | 22415742 | Info |  |
+| 295 | EL MADFAI | ELLA | 22503725 | Info |  |
+| 296 | EL MEHEIRY | ALAEDDINE | 22310031 | Info |  |
+| 297 | EL OUAHABI | ASMA | 22502946 | Info |  |
+| 298 | ELIE | EVAN | 22513914 | Info |  |
+| 299 | ELKAMEL | SALIMA | 22508696 | Info |  |
+| 300 | ELONGUERT | THIERRY | 22503046 | Info |  |
+| 301 | ELOUERZADI | CHAIMAA | 22412316 | Info |  |
+| 302 | ERRAJA | WISSAL | 22513953 | Info |  |
+| 303 | ESKANDARI | ALESSANDRO | 22413354 | Info |  |
+| 304 | ESSANOUKAEV | MOUSLIM | 22304164 | Info |  |
+| 305 | ET TAYEB | MARIAM | 22512331 | Info |  |
+| 306 | ETIENNE | REMI | 22504369 | Info |  |
+| 307 | FABRY GAUSSEN | PAUL | 22513191 | Info |  |
+| 308 | FACHE | PAUL | 22518275 | Info |  |
+| 309 | FAKHET | AYA | 22413301 | Info |  |
+| 310 | FALEH | INES | 22504460 | Info |  |
+| 311 | FALL | NDEYE SOKHNA DIENG | 22512038 | Info |  |
+| 312 | FALL | OMAR | 22309579 | Info |  |

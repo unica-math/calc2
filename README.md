@@ -22,7 +22,7 @@
 
 [Exam CC no. 1](exam-cc1/exam-cc1.pdf)
 
-[Exam CC no. 2](exam-cc1/exam-cc2.pdf)
+[Exam CC no. 2](exam-cc2/exam-cc2.pdf)
 
 [Règlement des études UniCA](https://univ-cotedazur.fr/medias/fichier/cac-2025-24-reglementation-des-examens_1752069984689-pdf)
 

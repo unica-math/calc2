@@ -1,0 +1,345 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage{array, xcolor}
+\usepackage{amsthm, amssymb, amsmath}
+\usepackage[english, russian]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{xcolor}
+\usepackage[inline]{enumitem}
+\usepackage{paralist}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{ marvosym }
+\usepackage{hyperref}
+
+\usepackage{etoolbox}
+\usepackage{pgfkeys}
+\usepackage{pgfmath}
+
+
+%\newcommand{\cross}{\ensuremath{\square}\ }  %use to disable answers
+\newcommand{\cross}{\ensuremath{\boxtimes}\ } %use to enable answers
+
+\newcommand{\carre}{\ensuremath{\square}\ }
+
+% code for generating a random permutation
+\newcounter{randomListLength}%   current length of our random list
+\newcounter{randomListPosition}% current list index
+\newcounter{newRandomListElementPosition}% position to insert new element
+% insert #1 into the next position of \newRandomList unless the position
+% index \randomListPosition is equal to \newRandomListElementPosition in
+% which case the \newRandomListElement is added first
+\newcommand\randomlyInsertElement[1]{%
+  \stepcounter{randomListPosition}%
+  \ifnum\value{randomListPosition}=\value{newRandomListElementPosition}%
+    \listxadd\newRandomList{\newRandomListElement}%
+  \fi%
+  \listxadd\newRandomList{#1}%
+}
+% \randomlyInsertInList{list name}{new list length}{new element}
+\newcommand\randomlyInsertInList[3]{%
+  \pgfmathparse{random(1,#2)}%
+  \setcounter{newRandomListElementPosition}{\pgfmathresult}%
+  \ifnum\value{newRandomListElementPosition}=#2\relax%
+    \listcsxadd{#1}{#3}%
+  \else%
+    \def\newRandomList{}% start with an empty list
+    \def\newRandomListElement{#3}% and the element that we need to add
+    \setcounter{randomListPosition}{0}% starting from position 0
+    \xdef\currentList{\csuse{#1}}
+    \forlistloop\randomlyInsertElement\currentList%
+    \csxdef{#1}{\newRandomList}%
+  \fi%
+}
+
+% define some pgfkeys to allow key-value arguments
+\pgfkeys{/randomList/.is family, /randomList,
+  environment/.code = {\global\letcs\beginRandomListEnvironment{#1}
+                       \global\letcs\endRandomListEnvironment{end#1}
+                      },
+  enumerate/.style = {environment=enumerate},
+  itemize/.style = {environment=itemize},
+  description/.style = {environment=description},
+  seed/.code = {\pgfmathsetseed{#1}}
+}
+\pgfkeys{/randomList, enumerate}% enumerate is the default
+
+% finally, the code to construct the randomly permuted list
+\makeatletter
+\newcounter{randomListCounter}% for constructing \randomListItem@<k>'s
+
+% \useRandomItem{k} prints item number k
+\newcommand\useRandomItem[1]{\csname randomListItem@#1\endcsname}
+
+% \setRandomItem{k} saves item number k for future use
+% and builds a random permutation at the same time
+\def\setRandomItem#1\par{\stepcounter{randomListCounter}%
+       \expandafter\protected@xdef\csname randomListItem@\therandomListCounter\endcsname{\noexpand\item#1}%
+       \randomlyInsertInList{randomlyOrderedList}{\therandomListCounter}{\therandomListCounter}%
+}%
+\let\realitem=\item
+\makeatother
+\newenvironment{randomList}[1][]{% optional argument -> pgfkeys
+  \pgfkeys{/randomList, #1}% process optional arguments
+  \setcounter{randomListLength}{0}% initialise length of random list
+  \def\randomlyOrderedList{}% initialise the random list of items
+  % Nthing is printed in the main environment. Instead, \item is
+  % used to slurp the "contents" of the item into randomListItem@<counter>
+  \let\item\setRandomItem%      
+}
+{% now construct the list environment by looping over the randomly ordered list
+  \let\item\realitem
+  \setcounter{randomListCounter}{0}
+  \beginRandomListEnvironment\relax
+    \forlistloop\useRandomItem\randomlyOrderedList
+  \endRandomListEnvironment
+}
+
+% test compatibility with enumitem
+\usepackage{enumitem}
+\newlist{Testlist}{enumerate}{1} %
+\setlist[Testlist]{label*=\arabic*.}
+\setlist{nosep}\parindent=0pt% for more compact output
+
+\begin{document}
+
+\pagestyle{fancy}
+ \fancyhf{}
+ %\rhead{Prof. J.-B. Caillau, Prof. Kh. Kozhasov}
+ %\lhead{\bf Nom :\hspace*{4.0cm} Prénom : \hspace*{5.0cm} No.\ étudiant :\hspace*{5.0cm}}
+ \lhead{\bf Nom :\hfill Prénom : \hfill No.\ étudiant :\hfill}
+ %\rhead{Calculus II - L1}
+\lfoot{\href{https://univ-cotedazur.fr/}{Université Côte d'Azur}\\
+ Département de mathématique}
+\rfoot{\vspace{0cm}\includegraphics[width=0.3\linewidth]{UCA.png}}
+
+\begin{center}
+  {\large  \bf Exam CC no. 2 -- Calculus II}
+  \medskip
+  
+%{\bf \textcolor{red}{VERSION EXEMPLAIRE ET RÉDUITE.}}
+
+\end{center}
+% {\bf Le texte de référence est en anglais.}
+
+\begin{center}
+     \textbf{Nota bene.} Plusieurs réponses correctes sont possibles. Chaque réponse correcte apporte des points. Les mauvaises réponses sont pénalisées. Durée 2H, pas de documents autorisés.
+\end{center}
+
+\begin{randomList}[environment=Testlist, seed=1] % seed = 1, 2 ou 3
+\item Quelles affirmations concernant les fonctions de plusieurs variables sont vraies ?\\ \\ 
+\carre Si $f: \mathbb{R}^n\rightarrow \mathbb{R}$ est une fonction dérivable en un point $\mathbf{x}\in \mathbb{R}^n$, alors ses dérivées partielles sont continues en ce point.\\
+\carre Une fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$ qui n'est pas constante admet un nombre infini d'ensembles de niveau non-vides.\\
+\carre Soit $f:\mathbb{R}^n\rightarrow \mathbb{R}$ une fonction telle que $f(\mathbf{x}^*)\leq c$ pour tous extrema $\mathbf{x}^*\in \mathbb{R}^n$ de $f$ (c'est-à-dire $\nabla f(\mathbf{x}^*)=0$), où $c\in \mathbb{R}$ une constante. Alors $f(\mathbf{x})\leq c$ pour tous $\mathbf{x}\in \mathbb{R}^n$.\\
+\cross Soit $f:\mathbb{R}\rightarrow \mathbb{R}$ une fonction différentiable.  La tangente au graphe de $f$ en un point $(x_0,f(x_0))\in \mathbb{R}^2$ est toujours bien définie.\\
+\carre La fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$, $f(x,y) = x^2(1-x)^2 y^2$ admet un unique extremum.\\
+%\carre La fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$, $f(x,y)=2x^2+4xy + y^2+5x + 7y-1$ admet un unique extremum.\\
+
+\item Quelles affirmations concernant les EDO sont vraies ?\\ \\
+\carre Les solutions d’une EDO linéaire du second ordre
+ forment toujours un espace vectoriel de dimension $2$.\\
+\cross La solution générale de l'EDO $y''-3y'+2y=10\cos x$ est donnée par \\$(c_1+c_2) e^x +c_2e^{2x}+\cos x -3 \sin x$, où $c_1, c_2$ sont des constantes arbitraires.\\
+\cross L'EDO $y''-y'+y=x(x+1)$ admet une solution particulière de la forme $ax^2+bx+c$, où $a, b, c\in \mathbb{R}$ sont certaines constantes.\\
+% \begin{center}
+% \textcolor{red}{$y(x)=x^2+3x+1$ est une solution particulière.}
+% \end{center}  
+\cross Il existe une solution unique de l'EDO $y'+y=2\cos x$ satisfaisant la condition $y(0)=1$.\\
+\carre Pour trouver une solution particulière d’une EDO du second ordre avec second membre il est nécessaire d’utiliser la méthode de variation de la constante.\\
+
+\item L'EDO $y''+y=2\cos x$ admet une solution de la forme \\ \\
+\carre $y=\beta \sin (\alpha x)$, où $\alpha, \beta\in \mathbb{R}$ sont certaines constantes.\\
+\cross $y= c \cos x+ x \sin x+ c\,e^x$, où $c\in\mathbb{R}$ est une certaine constante.\\
+\cross $y= c_1 x\sin x+ c_2 x\cos x$, où $c_1, c_2\in \mathbb{R}$ sont certaines constantes.\\
+\carre $y=c_1 \cos x + c_2\sin x+ x \cos x$, où $c_1, c_2\in \mathbb{R}$ sont certaines constantes.\\
+\carre $y= \beta x \cos (\alpha x)$, où $\alpha, \beta\in \mathbb{R}$ sont certaines constantes.\\
+
+\item  Déterminer le module et un argument de $z=\frac{z_1 z_2}{z_3}$, où $z_1 = 2e^{i\frac{\pi}{3}}$, $\quad z_2 = 3e^{-i\frac{\pi}{6}}$, $\quad z_3 = 1 - i$.\\ \\
+\carre \(|z|=6,\ \arg(z)=-\frac{\pi}{12}\)\\
+\cross \(|z|=3\sqrt{2},\ \arg(z)=\frac{5\pi}{12}\)\\
+\carre \(|z|=3\sqrt{2},\ \arg(z)=-\frac{\pi}{12}\)\\
+\carre \(|z|=\frac{6}{\sqrt{2}},\ \arg(z)=\frac{7\pi}{12}\)\\
+\carre \(|z|=3,\ \arg(z)=\frac{5\pi}{6}\)\\
+
+\item 
+La dérivée de la fonction  $f(x,y)=\frac{2x-3y+xy}{1+4x^2-5y^2}$ au point $(0,0)\in \mathbb{R}^2$ vaut
+\begin{center}
+\cross $[2, -3]$ \qquad \carre $3$\qquad \carre $[3, -2]$ \qquad \carre $-3$ \qquad \carre $2$
+\end{center}
+
+\item Sélectionnez tous les points dans $\mathbb{R}^2$ qui appartiennent à l'ensemble de niveau $f^{-1}(\{-1\})$ de la fonction $f:\mathbb{R}^2\rightarrow\mathbb{R}$ définie comme $f(x,y)=\frac{x^2-xy+2y^2+3x-y}{1+(x-y)^2}\cdot$
+\begin{center}
+\carre $(0,0)$ \qquad \carre $(1,1)$ \qquad \cross $(-1,0)$ \qquad \carre $(0,1)$ \qquad \carre $(1,-1)$
+\end{center}
+
+\item Sélectionnez tous les points dans $\mathbb{R}^3$ qui appartiennent au graphe de la fonction $f:\mathbb{R}^2\rightarrow\mathbb{R}$ définie comme
+$f(x,y)=x^3+xy^2-y$.
+\begin{center}
+\cross $(0,0,0)$ \qquad \cross $(-1,1,-3)$ \qquad \carre $(0,-1,-1)$ \qquad \carre $(-1,-1,1)$ \qquad \cross $(2,1,9)$ 
+\end{center}\\
+
+\item Sélectionnez tous les vecteurs dans $\mathbb{R}^3$ qui appartiennent au plan tangent au graphe de la fonction $f:\mathbb{R}^2\rightarrow\mathbb{R}$, $f(x,y)=x^3+xy^2-y$, au point $(1,1,1)$.
+\begin{center}
+    \cross $(1,0,4)$\qquad \carre $(4,1,-1)$\qquad \cross $(1,1,5)$ \qquad\carre $(2,-1,6)$ \qquad\cross $(1,2,6)$
+\end{center}
+
+\item Parmi les fonctions suivantes, lesquelles sont des dérivées partielles d’ordre supérieur à 1 de la fonction $f:\mathbb{R}^2\rightarrow\mathbb{R}$, $f(x,y)=2x^4 - 3x^3y + 5x^2y^2 - xy^3 + 4y^4 + 7x^2y$ ?\\ \\
+\carre $24x^2 - 18xy + 10y^2$\\
+\cross $-9x^2 + 20xy - 3y^2 + 14x$\\
+\carre $5$\\
+\cross $-18x + 20y + 14$\\
+\cross $-6$\\
+
+\item Quelles affirmations concernant les nombres complexes sont vraies ?\\ \\ 
+  \cross Il existe $5$ nombres complexes distincts qui sont des racines cinquièmes de l'unité.\\
+  \cross Le produit des deux nombres complexes $z_1=r_1e^{i\phi_1}, z_2=r_2e^{i\phi_2}$ donnés sous forme polaire s'écrit comme $z_1z_2=r_1r_2e^{i(\phi_1+\phi_2)}$.\\
+  \carre Tout nombre réel peut être le module d'un nombre complexe.\\
+  \cross Si $w\in \mathbb{C}$ est le conjugué d'un nombre complexe $z\in \mathbb{C}$, alors $z$ est le conjugué de $w$.\\
+  \carre D’après le théorème de d’Alembert-Gauss, une équation 
+$z^4+ a_3 z^3+ a_2 z^2 + a_1 z + a_0=0$, $a_0, a_1, a_2, a_3 \in \mathbb{R}$, admet une solution $z\in \mathbb{R}$.\\
+
+\item La solution générale de l'équation $4y'' - 20y' + 25y = 0$, $x\in \mathbb{R}$, est donnée par\\ \\ 
+\carre $y = c_1 e^{2x} + c_2 e^{3x}$, où $c_1$ et $c_2$ sont des constantes.\\
+\carre $y = (c_1 + c_2 x)e^{-\frac{5}{2}x}$, où $c_1$ et $c_2$ sont des constantes.\\
+\carre $y = c_1 e^{\frac{5}{2}x} + c_2 e^{-\frac{5}{2}x}$, où $c_1$ et $c_2$ sont des constantes. \\
+\cross $y = (c_1 + c_2 x)e^{\,\frac{5}{2}x}$, où $c_1$ et $c_2$ sont des constantes.\\
+\carre $y = c_1 \cos\!\left(\tfrac{5}{2}x\right) + c_2 \sin\!\left(\tfrac{5}{2}x\right)$, où $c_1$ et $c_2$ sont des constantes.\\
+
+\item Parmi les EDO suivantes, lesquelles admettent la fonction 
+$y=x e^x$ comme solution particulière?\\ \\
+\carre $y'=x e^x$\\
+\cross $y'-y=e^x$\\
+\carre $y''+2y'-y=4e^x$\\
+\cross $3y''-6y'+3y=0$\\
+\cross $(y'')^2-yy'=e^{2x}(3x+4)$\\
+
+\item Parmi les fonctions suivantes $f:\mathbb{R}^3\rightarrow \mathbb{R}$ lesquelles admettent 
+$6x^2+6 x y+10 x-7$ comme dérivée partielle (d’ordre 1) ?\\ \\
+\carre $f=2x^2y+3xy^2+5xy-7x+12z$\\
+\cross $f=3z^3+ 2x^3+3x^2y + 5 x^2-7x+2z$\\
+\carre $f=12x + 6y+10$\\
+\carre $f=6x$\\
+\cross $f=6x^2z+6xyz+10xz-7z$\\
+
+\item Sélectionnez toutes les fonctions $y$ qui satisfont l’EDO
+$y''-6y'+9y=0$ avec les conditions initiales $y(0)=2$, $y'(0)=1$.\\ \\ 
+\carre $5x e^{3x}+2 e^{3x}$\\
+\carre $2 \cos (3x)+\frac{1}{3}\sin (3x)$\\
+\cross $2e^{3x}-5x e^{3x}$\\
+\carre $2e^{3x}$\\
+\carre $\frac{3}{2} e^{3x} + \frac{1}{2} e^{-3x}$\\
+
+\item Soit $f:\mathbb{R}\rightarrow \mathbb{R}$ une fonction définie comme
+$$
+    f(x)\ =\ \begin{cases}
+        &-2x,\quad x\leq 0\\
+        &x^2+x+1,\quad 0<x\leq 1\\
+        &x^3+2,\quad 1<x
+    \end{cases}
+$$
+Quelles affirmations concernant cette fonction sont correctes ?\\ \\
+\cross $f$ n'est pas différentiable en $x=0$.\\
+\carre $f$ n'est pas différentiable en $x=1$.\\
+\carre $f: \mathbb{R}\rightarrow \mathbb{R}$ est une fonction continue.\\
+\cross $f'(x)$ existe pour tout $x>0$ et la fonction $f':\ ]0,\+\infty[\rightarrow \mathbb{R}$ est continue. \\
+\cross $f$ est différentiable en $x=1$ mais $f'$ n'est pas différentiable en ce point.\\
+
+\item Considérons l'EDO $y''-\frac{\ln(1+x)}{1+x^2}-(\sin x) y'+e^{-x}\,y=0$, $x>0$. Cette EDO est 
+\begin{center}
+    \cross linéaire\quad
+    \carre à coefficients constants\quad
+\cross du second ordre\quad
+\carre homogène\quad
+\carre d'ordre un
+\end{center}
+
+\item Sélectionnez toutes les fonctions $y$ qui satisfont l’EDO
+$y''-y'-2y=3e^{2x}$ ainsi que la condition  $y(0)+y'(0)=1$.\\ \\ 
+\carre $y=(xe^x)^2$\\
+\cross $y=x e^{2x}$\\
+\carre $y=(1+x)e^{2x}$\\
+\carre $y=\frac{1}{3}e^{2x}$\\
+\cross $5 e^{-x} + xe^{2x}$\\
+
+\item Quelles affirmations concernant la fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$, $f(x,y)=x^2+2xy+2y^2+3x-4y+7$, sont correctes ?\\ \\
+\cross $\nabla f(x,y)$ est bien défini pour tout $(x,y)\in \mathbb{R}^2$.\\
+\cross La tangente à l’ensemble de niveau de $f$ est définie en tout $(x,y)\in \mathbb{R}^2$, sauf en un nombre fini de points.\\
+\carre $f$ ne possède aucun extremum dans $\mathbb{R}^2$.\\
+\carre La dérivée de $f$ en $(1,1)\in \mathbb{R}^2$ est $(3,-4)$.\\
+\cross Les courbes de niveau de $f$ sauf une sont des ellipses centrées en un point unique.\\
+
+\item Soient $z_1=\frac{\sqrt{3}}{2}+ \frac{1}{2} i$, $z_2=-\frac{\sqrt{3}}{2}+ \frac{1}{2} i$, $z_3=i$, $z_4=-1$. Quelles affirmations sont correctes ?
+\begin{center}
+\carre $z_2=\overline{z_1}$\qquad
+\cross $z_1z_2=z_4$\qquad
+\carre $z_2^6=1$\qquad
+\cross $(z_1 z_3) ^3= 1$\qquad
+\carre $\vert z_1 z_3\vert>\vert z_2 z_4\vert$
+\end{center}
+
+\item Quelles affirmations concernant l'équation $p=0$, $p(z)=z^5-z$, sont correctes ?\\ \\
+\cross L'équation $p=0$ admet une solution réelle.\\
+\carre Toutes les solutions de $p=0$ sont des racines de l’unité.\\
+\cross $p(i)=0$.\\
+\cross Toutes les solutions $z\in \mathbb{C}$ de 
+$p=0$ vérifient $\vert z\vert \leq 1$.\\
+\cross Le produit de deux solutions de $p=0$ est également une solution.\\
+
+\item Quelles affirmations concernant le produit scalaire $(\mathbf{x}|\mathbf{y})=x_1y_1+\dots+ x_n y_n$ de deux vecteurs $\mathbf{x},\mathbf{y}\in \mathbb{R}^n$ ($n>1$) et la norme (associée) $\Vert \mathbf{x}\Vert=\sqrt{(\mathbf{x}|\mathbf{x})}$, $\mathbf{x}\in \mathbb{R}^n$, sont correctes ?\\ \\
+\cross $\|\mathbf{x}+\mathbf{y}\|\le \|\mathbf{x}\|+\|\mathbf{y}\|$\\
+\carre $(\mathbf{x}|\mathbf{y})=0$ implique que $\mathbf{x}$ et $\mathbf{y}$ sont colinéaires.\\
+\cross $( \mathbf{x}|\mathbf{y}) = ( \mathbf{y}|\mathbf{x})$\\
+\cross Si $\|\mathbf{x}\|=0$, alors $\| \mathbf{x}+\mathbf{y}\|=\|\mathbf{y}\|$ pour tout $\mathbf{y}\in \mathbb{R}^n$.\\
+\carre $( \mathbf{x}|\mathbf{y})\geq 0$ pour tout $\mathbf{x}, \mathbf{y}\in \mathbb{R}^n$.\\
+
+\item La fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$, $f(x,y)=x^2+2xy+y^2+3x+3y+5$,\\ \\
+\carre a $\left(\frac{7}{5}, - \frac{13}{5}\right)$ comme point critique.\\
+\cross a $\left(\frac{5}{4}, -\frac{11}{4}\right)$ comme point critique.\\
+\cross a plus de $3$ points critiques.\\
+\carre possède un point critique unique.\\
+\carre ne possède aucun point critique.\\
+
+\item La fonction $f:\mathbb{R}^2\rightarrow \mathbb{R}$, $f(x,y)=x^3+2y^3+5x+y+4$,\\ \\
+\cross ne possède aucun extremum.\\
+\carre a $(0,0)$ comme seul extremum.\\
+\carre possède un maximum local mais pas de minimum local.\\
+\carre satisfait $f(x,y)<2026$ pour tout $(x,y)\in \mathbb{R}^2$.\\
+\carre possède au moins un point critique.\\
+
+\end{randomList}
+
+% \hspace{0.3cm}24.\  Cinq nombres complexes $z_1, \dots, z_5$ sont représentés par des points dans le plan complexe.
+
+% \qquad\ Sélectionnez tous ceux vérifiant $\textrm{\normalfont{Re}}(z)>0$ et $\textrm{\normalfont{Im}}(z)<0$.
+%   \begin{center}
+%      \qquad\cross $z_1$
+%     \qquad\carre $z_2$
+%     \qquad\cross $z_3$
+%     \qquad\carre $z_4$
+%     \qquad\carre $z_5$
+%   \end{center}
+% \begin{center}
+% \begin{tikzpicture}[scale=4.5, >=stealth]
+%   \draw[->, thick] (-1.2,0) -- (1.2,0) node[right] {$\textrm{\normalfont{Re}}$};
+%   \draw[->, thick] (0,-1.2) -- (0,1.2) node[above] {$\textrm{\normalfont{Im}}$};
+
+% \draw[step=0.5, gray!30, very thin] (-1.2,-1.2) grid (1.2,1.2);
+  
+% \fill (0,0) circle (0.015);
+%   \node[font=\scriptsize, anchor=south east] at (0,0) {$0$};
+
+%   \foreach \k/\x/\y in {
+%   1/0.73/-0.18,
+%     2/-0.41/0.92,
+%     3/0.05/-0.64,
+%     4/-0.88/-0.27,
+%     5/0.33/0.11
+%   }{
+%     \fill (\x,\y) circle (0.015);
+%     \node[font=\normalsize, anchor=west] at (\x,\y) {$z_{\k}$};
+%   }
+% \end{tikzpicture}\end{center}
+\end{document}

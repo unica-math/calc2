@@ -44,7 +44,7 @@ En CCI (= contrôle continu intégral) avec deux examens de CC :
 - Exam CC no. 1 (coeff. 1), 14/02/2026 09:30-11:30 (amphis Chimie + Info + Math + Physique + Sciences nat., voir [liste répartition](exam-cc1/amphis.md))
 - Exam CC no. 2 (coeff. 1), ~~27/03/2026~~ 26/03/2026 17:45-19:45 (amphis Chimie + Info + Math + Physique + Sciences nat.)
 - ER (= épreuve de remplacement), 11/05/2026 17:45-19:45 (amphi math, uniquement pour ABJ - dispensés, *etc.*)
-- Session no. 2 : 26/06/2026 08:00-10:00 (amphis math, info, physique, sc. nat. et petit valrose, voir convocations individuelles)
+- Session no. 2 : 26/06/2026 08:00-10:00 (amphis Info + Math + Physique + Sciences nat. + Petit Valrose, voir convocations individuelles)
 
 ## Organisation
 
